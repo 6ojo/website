@@ -38,7 +38,7 @@ export default function Home() {
 					hey, im gojo. i do things sometimes on my {" "}
 					<Link
 						target="_blank"
-						href="https:/github.com/6ojo"
+						href="https://github.com/6ojo"
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						github
