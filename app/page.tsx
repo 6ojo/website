@@ -3,8 +3,8 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-	{ name: "Projects", href: "/projects" },
-	{ name: "Contact", href: "/contact" },
+	{ name: "projects", href: "/projects" },
+	{ name: "contact", href: "/contact" },
 ];
 
 export default function Home() {
@@ -45,15 +45,14 @@ export default function Home() {
 					</Link>
 
 					<br />
-					and working on{" "}
+					and other {" "}
 					<Link
 						target="_blank"
-						href="https://planetfall.io"
+						href="/contact"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						planetfall.io
+						places
 					</Link>{" "}
-					at night.
 				</h2>
 			</div>
 		</div>
