@@ -21,7 +21,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 	if (project.repository) {
 		links.push({
 			label: "GitHub",
-			href: `https://github.com/${project.repository}`,
+			href: `https://github.com/6ojo`,
 		});
 	}
 	if (project.url) {
@@ -67,7 +67,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="https://twitter.com/chronark_">
+						<Link target="_blank" href="https://twitter.com/6ojo_">
 							<Twitter
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
