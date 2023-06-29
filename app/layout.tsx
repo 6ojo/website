@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
+		default: "gojo.one",
 		template: "%s | chronark.com",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "gojo's bio",
 	openGraph: {
-		title: "chronark.com",
+		title: "gojo.one",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"gojo's bio",
+		url: "https://gojo.one",
+		siteName: "gojo.one",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://media.discordapp.net/attachments/818926226142920785/1123798505358626886/Screenshot_20230628-1913322.png?width=971&height=452",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "gojo.one",
 		card: "summary_large_image",
 	},
 	icons: {
