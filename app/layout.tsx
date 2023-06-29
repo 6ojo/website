@@ -19,8 +19,8 @@ export const metadata: Metadata = {
 		images: [
 			{
 				url: "https://media.discordapp.net/attachments/1010995350624014407/1123829478288801852/image.png?width=1169&height=433",
-				width: 1920,
-				height: 1080,
+				width: 1169,
+				height: 433,
 			},
 		],
 		locale: "en-US",
