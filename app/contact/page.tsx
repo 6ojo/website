@@ -1,5 +1,5 @@
 "use client";
-import { Github, Messagesquareplus, Twitter } from "lucide-react";
+import { Github, MessageSquarePlus, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -12,7 +12,7 @@ const socials = [
 		handle: "@6ojo_",
 	},
 	{
-		icon: <Messagesquareplus size={20} />,
+		icon: <MessageSquarePlus size={20} />,
 		href: "https://xyl.lol/6ojo",
 		label: "discord",
 		handle: "@6ojo",
