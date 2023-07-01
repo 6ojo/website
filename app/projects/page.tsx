@@ -24,6 +24,7 @@ export default async function ProjectsPage() {
 		(project) => project.slug === "newsite",
 	)!;
 	const top2 = allProjects.find((project) => project.slug === "oldsite")!;
+	const top3 = allProjects.find((project) => project.slug === "click-sim-script")!;
 	const sorted = allProjects
 		.filter((p) => p.published)
 		.filter(
