@@ -1,27 +1,27 @@
 "use client";
-import { Github, MessageSquarePlus, Twitter } from "lucide-react";
+import { Gamepad2, Skull, Twitch } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/6ojo_",
-		label: "twitter",
-		handle: "@6ojo_",
-	},
-	{
-		icon: <MessageSquarePlus size={20} />,
-		href: "https://xyl.lol/6ojo",
-		label: "discord",
+		icon: <Twitch size={20} />,
+		href: "https://twitch.tv/6ojo",
+		label: "twitch",
 		handle: "@6ojo",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/6ojo",
-		label: "github",
-		handle: "6ojo",
+		icon: <Skull size={20} />,
+		href: "https://reddit.com/u/60j0",
+		label: "reddit",
+		handle: "u/60j0",
+	},
+	{
+		icon: <Gamepad2 size={20} />,
+		href: "https://steamcommunity.com/id/gojoproz/",
+		label: "steam",
+		handle: "GJP",
 	},
 ];
 
