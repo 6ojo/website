@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Particles from "./components/particles";
+import Particles from "app/components/particles";
 
 const navigation = [
 	{ name: "main page", href: "https://gojo.one" },
