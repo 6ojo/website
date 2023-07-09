@@ -46,7 +46,7 @@ export const Project = defineDocumentType(() => ({
 	computedFields,
 }));
 
-xport const Project = defineDocumentType(() => ({
+xport const Record = defineDocumentType(() => ({
 	name: "Record",
 	filePathPattern: "./records/**/*.mdx",
 	contentType: "mdx",
