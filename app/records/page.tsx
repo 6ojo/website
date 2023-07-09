@@ -21,10 +21,10 @@ export default async function ProjectsPage() {
 	}, {} as Record<string, number>);
 
 	const featured = allProjects.find(
-		(project) => project.slug === "newsite",
+		(project) => project.slug === "latest",
 	)!;
-	const top2 = allProjects.find((project) => project.slug === "oldsite")!;
-	const top3 = allProjects.find((project) => project.slug === "click-sim-script")!;
+	const top2 = allProjects.find((project) => project.slug === "favorite")!;
+	const top3 = allProjects.find((project) => project.slug === "current")!;
 	const sorted = allProjects
 		.filter((p) => p.published)
 		.filter(
