@@ -1,18 +1,4 @@
 "use client";
-import { html } from 'link';
-
-export class MyComponent extends html.Component {
-  static get properties() {
-    return {
-      canonicalUrl: { type: String },
-    };
-  }
-
-  render() {
-    return html`<link rel="canonical" href="${this.canonicalUrl}" />`;
-  }
-}
-
 import { Github, MessageSquarePlus, Cloudy } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
