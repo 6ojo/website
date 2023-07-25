@@ -1,4 +1,5 @@
 "use client";
+<link rel="canonical" href="https://gojo.one/contact">
 import { Github, MessageSquarePlus, Cloudy } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
