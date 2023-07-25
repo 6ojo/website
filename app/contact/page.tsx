@@ -1,5 +1,5 @@
 "use client";
-import { html } from 'lit-element';
+import { html } from 'link';
 
 export class MyComponent extends html.Component {
   static get properties() {
