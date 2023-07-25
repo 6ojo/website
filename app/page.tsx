@@ -53,7 +53,18 @@ export default function Home() {
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						places
-					</Link>{" "}
+					</Link>
+
+					<br />
+					<br />
+					see the {" "}
+					<Link
+						target="_blank"
+						href="https://github.com/chronark/chronark.com"
+						className="underline duration-500 hover:text-zinc-300"
+					>				
+						original source code
+					</Link>
 				</h2>
 			</div>
 		</div>
