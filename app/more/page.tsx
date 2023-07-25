@@ -1,15 +1,15 @@
 "use client";
-import { Gamepad2, Skull, Twitch } from "lucide-react";
+import { Gamepad2, Skull, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitch size={20} />,
-		href: "https://twitch.tv/6ojo",
-		label: "twitch",
-		handle: "@6ojo",
+		icon: <Twitter size={20} />,
+		href: "https://twitter.com/6ojo_",
+		label: "twitter",
+		handle: "@6ojo_",
 	},
 	{
 		icon: <Skull size={20} />,
@@ -21,7 +21,7 @@ const socials = [
 		icon: <Gamepad2 size={20} />,
 		href: "https://steamcommunity.com/id/gojoproz/",
 		label: "steam",
-		handle: "GJP",
+		handle: "gojo",
 	},
 ];
 
