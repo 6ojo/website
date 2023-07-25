@@ -1,15 +1,15 @@
 "use client";
-import { Github, MessageSquarePlus, Twitter } from "lucide-react";
+import { Github, MessageSquarePlus, Cloudy } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/6ojo_",
-		label: "twitter",
-		handle: "@6ojo_",
+		icon: <Cloudy size={20} />,
+		href: "https://bsky.app/profile/gojo.one",
+		label: "bluesky",
+		handle: "@gojo.one",
 	},
 	{
 		icon: <MessageSquarePlus size={20} />,
