@@ -1,9 +1,19 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import {document} from "document";
-document.title = 'gojo- home';
+import { document } from 'document';
 
+const setTitle = (title: gojo home) => {
+  document.title = title;
+};
+
+const getTitle = () => {
+  return document.title;
+};
+
+export { setTitle, getTitle };
+
+}
 
 const navigation = [
 	{ name: "contact", href: "/contact" },
