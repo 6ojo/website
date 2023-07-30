@@ -1,20 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import { document } from 'document';
 
-function setPageTitle(newTitle: string) {
-	document.title = newTitle;
-  }
-  
-  setPageTitle("gojo home");
-  
-
-const navigation = [
-	{ name: "contact", href: "/contact" },
- { name: "extra links", href: "/more" },
-	{ name: "projects", href: "/projects" },
-];
 
 export default function Home() {
 	return (
