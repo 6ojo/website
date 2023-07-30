@@ -3,17 +3,12 @@ import React from "react";
 import Particles from "./components/particles";
 import { document } from 'document';
 
-const setTitle = (title: gojo home) => {
-  document.title = title;
-};
-
-const getTitle = () => {
-  return document.title;
-};
-
-export { setTitle, getTitle };
-
-}
+function setPageTitle(newTitle: string) {
+	document.title = newTitle;
+  }
+  
+  setPageTitle("gojo home");
+  
 
 const navigation = [
 	{ name: "contact", href: "/contact" },
