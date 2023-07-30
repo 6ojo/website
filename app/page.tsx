@@ -1,6 +1,10 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import document from "document";
+
+document.title = 'gojo- home';
+
 
 const navigation = [
 	{ name: "contact", href: "/contact" },
