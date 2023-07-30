@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-
+import Document from "Document";
 document.title = 'gojo- home';
 
 
