@@ -13,7 +13,7 @@ const socials = [
 	},
 	{
 		icon: <MessageSquarePlus size={20} />,
-		href: "https://xyl.lol/6ojo",
+		href: "discord://",
 		label: "discord",
 		handle: "@6ojo",
 	},
