@@ -61,10 +61,10 @@ export default function Home() {
 					see the {" "}
 					<Link
 						target="_blank"
-						href="https://github.com/chronark/chronark.com"
+						href="https://github.com/6ojo/website"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
-						original source code
+						source code
 					</Link>
 				</h2>
 			</div>
