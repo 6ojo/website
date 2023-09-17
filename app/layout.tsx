@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 		description:
 			"gojo's bio",
 		url: "https://gojo.one",
-		siteName: "gojo.one",
+		siteName: "gojo",
 		images: [
 			{
 				url: "https://media.discordapp.net/attachments/1010995350624014407/1123829478288801852/image.png?width=1169&height=433",
