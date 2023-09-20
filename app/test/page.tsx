@@ -12,7 +12,7 @@ export default function Home() {
 
 
 			<div className="my-16 text-center">
-				<h2 className="text-sm text-zinc-500 ">
+				<h1 className="text-sm text-zinc-500 ">
 					example of what id say about myself {" "}
 					<Link
 						target="_blank"
