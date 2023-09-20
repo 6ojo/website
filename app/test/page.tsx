@@ -12,8 +12,8 @@ export default function Home() {
 
 
 			<div className="my-16 text-center">
-				<h1 className="text-sm text-zinc-500 ">
-					example of what id say about myself {" "}
+				<h1 className="text-sm text-zinc-600 ">
+					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
 						href="https://github.com/6ojo"

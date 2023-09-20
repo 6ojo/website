@@ -59,13 +59,13 @@ export default function Home() {
 
 					<br />
 					<br />
-					{" "}
+					see the source code on {" "}
 					<Link
 						target="_blank"
 						href="https://github.com/6ojo/website"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
-						icon <Github size={20} />,
+						 <Github size={20} />,
 					</Link>
 				</h2>
 			</div>
