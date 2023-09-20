@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import {Github} from "lucide-react";
 
 const navigation = [
 	{ name: "contact", href: "/contact" },
@@ -58,13 +59,13 @@ export default function Home() {
 
 					<br />
 					<br />
-					see the {" "}
+					{" "}
 					<Link
 						target="_blank"
 						href="https://github.com/6ojo/website"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
-						source code
+						icon <Github size={20} />,
 					</Link>
 				</h2>
 			</div>
