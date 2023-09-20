@@ -4,14 +4,14 @@ import Particles from "app/components/particles";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl via-zinc-600/20 to-black">
+		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<Particles
-				className="absolute inset-0 -z-10 animate-fade-in"
+				className="absolute inset-0 -z-10"
 				quantity={500}
 			/>
 
 
-			<div className="my-16 text-center animate-fade-in">
+			<div className="my-16 text-center">
 				<h2 className="text-sm text-zinc-500 ">
 					example of what id say about myself {" "}
 					<Link
