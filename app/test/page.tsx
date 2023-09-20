@@ -42,7 +42,7 @@ export default function Home() {
 					>				
 						go home
 					</Link>
-				</h2>
+				</h1>
 				</div>
 		</div>
 	);
