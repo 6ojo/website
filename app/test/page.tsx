@@ -4,7 +4,7 @@ import Particles from "app/components/particles";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden from-black via-zinc-600/20 to-black">
+		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl via-zinc-600/20 to-black">
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={500}
