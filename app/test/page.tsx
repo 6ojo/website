@@ -2,13 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Particles from "app/components/particles";
 
-const navigation = [
-	{ name: "contact", href: "/contact" },
- { name: "extra links", href: "/more" },
-	{ name: "projects", href: "/projects" },
-];
-
-
 export default function Home() {
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
