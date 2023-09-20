@@ -18,7 +18,7 @@ export default function Home() {
 			</nav>
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
-				quantity={100}
+				quantity={500}
 			/>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
