@@ -31,8 +31,9 @@ export default function Home() {
 			/>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					hey, im gojo. i do things sometimes on my {" "}
+					example of what id say about myself {" "}
 					<Link
 						target="_blank"
 						href="https://github.com/6ojo"
@@ -53,13 +54,13 @@ export default function Home() {
 
 					<br />
 					<br />
-					see the {" "}
+					{" "}
 					<Link
 						target="_blank"
-						href="https://github.com/6ojo/website"
+						href="https://www.gojo.one"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
-						source code
+						go home
 					</Link>
 				</h2>
 			</div>
