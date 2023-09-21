@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Particles from "app/components/particles";
 import gojo from "/public";
+const imageUrl = "./public/gojo.png"
 
 export default function Home() {
 	return (
@@ -11,12 +12,9 @@ export default function Home() {
 				quantity={500}
 			/>
 
-			{/* <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-				about
-			</h1> */}
+			<img src={imageUrl} />
 			<div className="my-16 text-center">
 				<h1 className="z-10 text-4xl text-zinc-500 text-transparent cursor-default bg-white whitespace-nowrap bg-clip-text font-display">
-				<img src={gojo} alt="gojo logo" />
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
@@ -50,3 +48,6 @@ export default function Home() {
 		</div>
 	);
 }
+{/* <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+				about
+			</h1> */}
