@@ -10,11 +10,11 @@ export default function Home() {
 				quantity={500}
 			/>
 
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			{/* <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 				about
-			</h1>
+			</h1> */}
 			<div className="my-80 text-center">
-				<h2 className="text-sm text-zinc-500 ">
+				<h2 className="text-4xl text-zinc-500 text-transparent bg-white text-edge-outline ">
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
