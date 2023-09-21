@@ -13,8 +13,8 @@ export default function Home() {
 			{/* <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 				about
 			</h1> */}
-			<div className="my-80 text-center">
-				<h2 className="text-4xl text-zinc-500 duration-1000 text-transparent bg-white text-edge-outline- whitespace-nowrap bg-clip-text">
+			<div className="my-16 text-center">
+				<h2 className="z-10 text-4xl text-zinc-500 duration-1000 text-transparent cursor-default bg-white text-edge-outline whitespace-nowrap bg-clip-text">
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
