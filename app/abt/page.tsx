@@ -13,7 +13,6 @@ export default function Home() {
 				className="absolute inset-0 -z-10"
 				quantity={500}
 			/>
-
 			<img 
 				src={imageUrl}
 				width="335"
@@ -44,7 +43,6 @@ export default function Home() {
 					</Link>
 					</h3>
 				</div>
-		</div>
 		</div>
 	);
 }
