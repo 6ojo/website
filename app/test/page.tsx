@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "app/components/particles";
+import gojo from "/public";
 
 export default function Home() {
 	return (
@@ -15,6 +16,7 @@ export default function Home() {
 			</h1> */}
 			<div className="my-16 text-center">
 				<h1 className="z-10 text-4xl text-zinc-500 text-transparent cursor-default bg-white whitespace-nowrap bg-clip-text font-display">
+				<img src={gojo} alt="gojo logo" />
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
