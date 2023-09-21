@@ -2,10 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Particles from "app/components/particles";
 const imageUrl = "https://media.discordapp.net/attachments/1010995350624014407/1154260384555999262/gojo.png?width=670&height=670"
-const Image = () => {
-	const style = {
-	  transform: `scale(0.5)`,
-	};
+
 
 export default function Home() {
 	return (
@@ -17,9 +14,8 @@ export default function Home() {
 
 			<img 
 				src={imageUrl}
-				width="670"
-				height="670"
-				style={style} 
+				width="335"
+				height="335"
 			/>
 			<div className="my-16 text-center">
 				<h1 className="z-10 text-4xl text-zinc-500 text-transparent cursor-default bg-white whitespace-nowrap bg-clip-text font-display">
