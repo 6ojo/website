@@ -64,7 +64,7 @@ export default function Home() {
 						href="https://github.com/6ojo/website"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
-						github,
+						github
 					</Link>
 				</h2>
 			</div>

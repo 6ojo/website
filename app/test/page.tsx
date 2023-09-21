@@ -12,7 +12,7 @@ export default function Home() {
 
 
 			<div className="my-80 text-center">
-				<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+				<h1 className="z-10 text-2xl bg-white cursor-default text-edge-outline font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
