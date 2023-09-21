@@ -14,7 +14,7 @@ export default function Home() {
 				about
 			</h1> */}
 			<div className="my-80 text-center">
-				<h2 className="text-4xl text-zinc-500 text-transparent bg-white duration-1000 ">
+				<h2 className="text-4xl text-zinc-500 duration-1000 ">
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
