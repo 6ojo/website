@@ -14,7 +14,7 @@ export default function Home() {
 				about
 			</h1> */}
 			<div className="my-16 text-center">
-				<h2 className="z-10 text-4xl text-zinc-500 text-transparent cursor-default bg-white whitespace-nowrap bg-clip-text font-display">
+				<h1 className="z-10 text-4xl text-zinc-500 text-transparent cursor-default bg-white whitespace-nowrap bg-clip-text font-display">
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
@@ -33,7 +33,7 @@ export default function Home() {
 					>
 						places
 					</Link>
-				</h2>
+				</h1>
 				<h3 className="text-xl text-zinc-500 ">	
 					{" "}
 					<Link
