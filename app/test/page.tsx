@@ -27,9 +27,11 @@ export default function Home() {
 				<h2 className="text-2xl text-zinc-500"
 				style={{color: "#ffffff"}}
 				>
-					about me text idk yet
+					thanks for visiting my site <br /> i like cats, records, and being silly on the interweb
+				
 				</h2>
 				<h3 className="text-xl text-zinc-500">	
+				<br />
 					{" "}
 					<Link
 						target="_blank"
