@@ -11,8 +11,8 @@ export default function Home() {
 			/>
 
 
-			<div className="my-16 text-center">
-				<h1 className="text-sm text-zinc-600 ">
+			<div className="my-80 text-center">
+				<h1 className="text-sm text-zinc-400 ">
 					im gojo and i want to be your friend {" "}
 					<Link
 						target="_blank"
