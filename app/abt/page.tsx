@@ -1,12 +1,15 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "app/components/particles";
+import { Navigation } from "../components/nav";
 import "./home.css";
 const imageUrl = "https://media.discordapp.net/attachments/1010995350624014407/1154260384555999262/gojo.png?width=670&height=670"
 
 
 export default function Home() {
 	return (
+		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+			<Navigation />
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<Particles
 				className="absolute inset-0 -z-10"
@@ -43,6 +46,7 @@ export default function Home() {
 					</Link>
 					</h3>
 				</div>
+		</div>
 		</div>
 	);
 }
