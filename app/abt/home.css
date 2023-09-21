@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+}
+
+.particles {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+}
+
+.logo {
+  width: 80%; /* Adjust this as needed for responsiveness */
+  max-width: 335px;
+  height: auto;
+}
+
+.content {
+  text-align: center;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.title {
+  font-size: 2rem; /* Adjust font size for different screen sizes */
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 1.5rem; /* Adjust font size for different screen sizes */
+  margin-bottom: 16px;
+}
+
+.link {
+  font-size: 1rem; /* Adjust font size for different screen sizes */
+}
