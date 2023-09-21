@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "app/components/particles";
-import gojo from "/public";
 const imageUrl = "./public/gojo.png"
 
 export default function Home() {
