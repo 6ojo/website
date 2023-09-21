@@ -33,9 +33,8 @@ export default function Home() {
 					>
 						places
 					</Link>
-
-					<br />
-					<br />
+				</h2>
+				<h3 className="text-xl text-zinc-500 "></h2>	
 					{" "}
 					<Link
 						target="_blank"
@@ -44,7 +43,7 @@ export default function Home() {
 					>				
 						go home
 					</Link>
-				</h2>
+				</h3>
 				</div>
 		</div>
 	);
