@@ -34,30 +34,12 @@ export default function Home() {
 				gojo.one
 			</h1>
 
-			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 font-display " />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					hey, im gojo. i do things sometimes on my {" "}
-					<Link
-						target="_blank"
-						href="https://github.com/6ojo"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						github
-					</Link>
-
-					<br />
-					and other {" "}
-					<Link
-						target="_blank"
-						href="/contact"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						places
-					</Link>
-
-					<br />
-					<br />
+					hiya, im gojo :3
+					<br /> look up there for more info about me
+					<br /> and where i am
 					see the source code on {" "}
 					<Link
 						target="_blank"
