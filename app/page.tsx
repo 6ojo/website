@@ -39,7 +39,8 @@ export default function Home() {
 				<h2 className="text-sm text-zinc-500 ">
 					hiya, im gojo :3
 					<br /> look up there for more info about me
-					<br /> and where i am
+					<br /> and where i hide 
+					<br /> <br />
 					see the source code on {" "}
 					<Link
 						target="_blank"
