@@ -7,7 +7,7 @@
     min-height: 100vh; 
     background: linear-gradient(to top left, rgba(168, 6, 6, 0.767), rgba(189, 19, 19, 0.8));
     font-family: Arial, sans-serif; 
-    width: auto;
+    width: 100%;
 }
 .particles {
   position: absolute;
