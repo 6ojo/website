@@ -35,7 +35,7 @@ export default function Home() {
 					{" "}
 					<Link
 						target="_blank"
-						href="https://www.gojo.one"
+						href="/"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
 						go home
