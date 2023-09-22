@@ -13,7 +13,7 @@ export default function Home() {
 
       <img src={imageUrl} alt="gojo profile picture a white and purple g and j on a black circle background," className="logo" />
 
-      <div className="content hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 font-display">
+      <div className="content font-display">
         <h1 className="title"> im gojo and i want to be your friend</h1>
 
         <h2 className="subtitle">
