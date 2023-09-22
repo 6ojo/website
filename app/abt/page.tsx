@@ -34,7 +34,7 @@ export default function Home() {
 				<br />
 					{" "}
 					<Link
-						target="_blank"
+						target="_self"
 						href="/"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
