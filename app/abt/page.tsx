@@ -8,7 +8,7 @@ const imageUrl =
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <Particles className="particles" quantity={500} />
 
       <img src={imageUrl} alt="gojo" className="logo" />
