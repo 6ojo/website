@@ -9,7 +9,7 @@ const imageUrl =
 export default function Home() {
   return (
     <div className="container">
-      <Particles className="particles" quantity={500} />
+      <Particles className="particles absolute inset-0 -z-10 animate-fade-in" quantity={500} />
 
       <img src={imageUrl} alt="gojo profile picture a white and purple g and j on a black circle background," className="logo" />
 

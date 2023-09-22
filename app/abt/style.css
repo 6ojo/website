@@ -5,7 +5,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 0vh;
+  height: 100vh;
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(141, 139, 139, 0.8));
 }
 
 .particles {
