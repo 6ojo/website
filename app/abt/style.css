@@ -1,12 +1,20 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: right;
-  height: 100vh;
-  background: linear-gradient(to top left, rgba(226, 6, 6, 0.658), rgba(196, 29, 29, 0.8));
-}
 
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Use min-height to ensure the container takes up the full viewport height */
+    background: linear-gradient(to top left, rgba(168, 6, 6, 0.767), rgba(189, 19, 19, 0.8));
+    font-family: Arial, sans-serif; /* Set your desired font-family */
+  }
+  
+  
 .particles {
   position: absolute;
   inset: 0;
