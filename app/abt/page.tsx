@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "app/components/particles";
+"use client";
 import { useEffect, useState } from "react";
 
 const imageUrl = "https://media.discordapp.net/attachments/1010995350624014407/1154260384555999262/gojo.png?width=670&height=670";
