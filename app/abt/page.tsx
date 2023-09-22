@@ -20,7 +20,7 @@ export default function Home() {
           thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb.
         </h2>
 
-        <h3 className="link my-16 text-center animate-fade-in">
+        <h3 className="link my-16 text-center ">
           <Link target="_self" href="https://www.gojo.one" className="underline">
             go home
           </Link>
