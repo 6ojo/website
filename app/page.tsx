@@ -41,7 +41,7 @@ export default function Home() {
 					<br /> look up there for more info about me
 					<br /> and where i hide 
 					<br /> <br />
-					see the source code on {" "}
+					see my terrible code on {" "}
 					<Link
 						target="_blank"
 						href="https://github.com/6ojo/website"
