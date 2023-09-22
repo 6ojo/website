@@ -13,15 +13,15 @@ export default function Home() {
 
       <img src={imageUrl} alt="gojo profile picture a white and purple g and j on a black circle background," className="logo" />
 
-      <div className="content font-display my-16 text-center animate-fade-in">
+      <div className="content font-display my-16 text-center ">
         <h1 className="title"> im gojo and i want to be your friend</h1>
 
-        <h2 className="subtitle my-16 text-center animate-fade-in">
+        <h2 className="subtitle my-16 text-center animate-fade-in ">
           thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb.
         </h2>
 
-        <h3 className="link my-16 text-center animate-fade-in">
-          <Link target="_blank" href="https://www.gojo.one" className="underline">
+        <h3 className="link my-16 text-center  animate-fade-in">
+          <Link target="_self" href="https://www.gojo.one" className="underline">
             go home
           </Link>
         </h3>

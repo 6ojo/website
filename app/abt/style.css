@@ -5,9 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
-  font-family: Calsals-Semibold, sans-serif; /* Set your desired font-family */
+  height: 0vh;
 }
 
 .particles {
