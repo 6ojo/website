@@ -36,12 +36,12 @@ body {
 
 .title {
   font-size: 2rem; /* Adjust font size for different screen sizes */
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .subtitle {
   font-size: 1.5rem; /* Adjust font size for different screen sizes */
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .link {
