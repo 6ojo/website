@@ -41,13 +41,13 @@ export default function Home() {
 					<br /> look up there for more info about me
 					<br /> and where i hide 
 					<br /> <br />
-					see my terrible code on {" "}
+					{" "}
 					<Link
 						target="_blank"
 						href="https://github.com/6ojo/website"
 						className="underline duration-500 hover:text-zinc-300"
 					>				
-						github
+						open source
 					</Link>
 				</h2>
 			</div>
