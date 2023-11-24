@@ -1,5 +1,5 @@
 "use client";
-import { Gamepad2, Skull, Twitter } from "lucide-react";
+import { Github, Skull, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -18,10 +18,10 @@ const socials = [
 		handle: "u/60j0",
 	},
 	{
-		icon: <Gamepad2 size={20} />,
-		href: "https://steamcommunity.com/id/gojoproz/",
-		label: "steam",
-		handle: "gojo",
+		icon: <Github size={20} />,
+		href: "https://github.com/6ojo",
+		label: "github",
+		handle: "6ojo",
 	},
 ];
 

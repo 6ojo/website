@@ -1,5 +1,5 @@
 "use client";
-import { Github, MessageSquarePlus, Cloudy } from "lucide-react";
+import { send-horizontal, MessageSquarePlus, Cloudy } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -18,10 +18,10 @@ const socials = [
 		handle: "@6ojo",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/6ojo",
-		label: "github",
-		handle: "6ojo",
+		icon: <send-horizontal size={20} />,
+		href: "https://t.me/gojodotone",
+		label: "telegram",
+		handle: "gojodotone",
 	},
 ];
 
