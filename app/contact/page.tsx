@@ -1,5 +1,5 @@
 "use client";
-import { send-horizontal, MessageSquarePlus, Cloudy } from "lucide-react";
+import { SendHorizontal, MessageSquarePlus, Cloudy } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -18,7 +18,7 @@ const socials = [
 		handle: "@6ojo",
 	},
 	{
-		icon: <send-horizontal size={20} />,
+		icon: <SendHorizontal size={20} />,
 		href: "https://t.me/gojodotone",
 		label: "telegram",
 		handle: "gojodotone",
