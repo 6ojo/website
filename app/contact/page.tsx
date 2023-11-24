@@ -1,5 +1,5 @@
 "use client";
-import { SendHorizontal, MessageSquarePlus, Cloudy } from 'lucide-react';
+import { SendHorizontal, MessageSquarePlus, Cloudy } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
