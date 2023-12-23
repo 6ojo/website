@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className="title "> im gojo and i want to be your friend</h1>
 
         <h2 className="subtitle my-16 text-center ">
-          thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb.
+          thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb. <br /> (the name isnt from jjk)
         </h2>
 
         <h3 className="link my-16 text-center ">
