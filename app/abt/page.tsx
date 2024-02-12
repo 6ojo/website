@@ -17,7 +17,7 @@ export default function Home() {
         <div className="content my-16 text-center font-display ">
           <h1 className="title "> im gojo and i want to be your friend</h1>
 
-          <h2 className="subtitle text-sm text-zinc-500 ">
+          <h2 className="subtitle text-sm my-16 ">
             thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb. <br /> (the name isnt from jjk)
           </h2>
 
