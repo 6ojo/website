@@ -8,23 +8,25 @@ const imageUrl =
 
 export default function Home() {
   return (
-    <div className="container">
-      <Particles className="particles" quantity={500} />
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+      <div className="container">
+        <Particles className="particles" quantity={500} />
 
-      <img src={imageUrl} alt="gojo profile picture a white and purple g and j on a black circle background," className="logo" />
+        <img src={imageUrl} alt="gojo profile picture a white and purple g and j on a black circle background," className="logo" />
 
-      <div className="content my-16 text-center font-display ">
-        <h1 className="title "> im gojo and i want to be your friend</h1>
+        <div className="content my-16 text-center font-display ">
+          <h1 className="title "> im gojo and i want to be your friend</h1>
 
-        <h2 className="subtitle my-16 text-center ">
-          thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb. <br /> (the name isnt from jjk)
-        </h2>
+          <h2 className="subtitle my-16 text-center ">
+            thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb. <br /> (the name isnt from jjk)
+          </h2>
 
-        <h3 className="link my-16 text-center ">
-          <Link target="_self" href="https://www.gojo.one" className="underline">
-            go home
-          </Link>
-        </h3>
+          <h3 className="link my-16 text-center ">
+            <Link target="_self" href="https://www.gojo.one" className="underline">
+              go home
+            </Link>
+          </h3>
+        </div>
       </div>
     </div>
   );
