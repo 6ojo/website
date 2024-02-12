@@ -22,7 +22,7 @@ export default function Home() {
           </h2>
 
           <h3 className="link text-sm text-zinc-500 ">
-            <Link target="_self" href="https://www.gojo.one" className="underline">
+            <Link target="_self" href="https://www.gojo.one" className="underline duration-500 hover:text-zinc-300">
               go home
             </Link>
           </h3>
