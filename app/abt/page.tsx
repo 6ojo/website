@@ -17,11 +17,11 @@ export default function Home() {
         <div className="content my-16 text-center font-display ">
           <h1 className="title "> im gojo and i want to be your friend</h1>
 
-          <h2 className="subtitle my-16 text-center ">
+          <h2 className="subtitle text-sm text-zinc-500 ">
             thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb. <br /> (the name isnt from jjk)
           </h2>
 
-          <h3 className="link my-16 text-center ">
+          <h3 className="link text-sm text-zinc-500 ">
             <Link target="_self" href="https://www.gojo.one" className="underline">
               go home
             </Link>
