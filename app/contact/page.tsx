@@ -1,12 +1,12 @@
 "use client";
-import { Send, MessageSquarePlus, MessageCircleDashed  } from "lucide-react";
+import { Send, MessageSquarePlus, MessageCircleDashed } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <MessageCircleDashed  size={20} />,
+		icon: <MessageCircleDashed size={20} />,
 		href: "https://signal.me/#eu/wBSwCvcW1q3jt9CRVuRNCRPvYcA7tsRUA6Jow104oT-VtdDG03xPuaDsxREPzuQf",
 		label: "signal",
 		handle: "gojo.69",
