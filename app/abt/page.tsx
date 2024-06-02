@@ -4,7 +4,7 @@ import Particles from "app/components/particles";
 import "./style.css";
 
 const imageUrl =
-  "https://media.discordapp.net/attachments/1010995350624014407/1154260384555999262/gojo.png?width=670&height=670";
+  "https://github.com/6ojo/website/blob/main/public/gojo.png?width=670&height=670";
 
 export default function Home() {
   return (
