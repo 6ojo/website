@@ -4,7 +4,7 @@ import Particles from "app/components/particles";
 import "./style.css";
 
 const imageUrl =
-  "https://github.com/6ojo/website/blob/main/public/gojo.png";
+  "https://github.com/6ojo/website/blob/main/public/gojo.png?raw=true";
 
 export default function Home() {
   return (
