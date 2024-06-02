@@ -1,15 +1,15 @@
 "use client";
-import { Send, MessageSquarePlus, Cloudy } from "lucide-react";
+import { Send, MessageSquarePlus, message-circle-dashed } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Cloudy size={20} />,
-		href: "https://bsky.app/profile/gojo.one",
-		label: "bluesky",
-		handle: "@gojo.one",
+		icon: <message-circle-dashed size={20} />,
+		href: "https://signal.me/#eu/wBSwCvcW1q3jt9CRVuRNCRPvYcA7tsRUA6Jow104oT-VtdDG03xPuaDsxREPzuQf",
+		label: "signal",
+		handle: "gojo.69",
 	},
 	{
 		icon: <MessageSquarePlus size={20} />,
