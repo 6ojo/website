@@ -72,14 +72,14 @@ export default function Home() {
 			</div>
 
 			{/* Time Widget Section */}
-			<div className="my-16 text-center animate-fade-in font-display">
+			<div className="my-16 text-center animate-fade-in font-display text-zinc-500">
 				<a
 					href="https://time.is/MT"
 					id="time_is_link"
 					rel="nofollow"
 					style={{ fontSize: "24px" }}
 				>
-					my time:  
+					my time: 
 				</a>
 				<span
 					id="MT_z12b"
