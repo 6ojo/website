@@ -51,12 +51,14 @@ export default function Home() {
 					</Link>
 				</h2>
 			</div>
+			<div className="time widget">
 			<a href="https://time.is/MT" id="time_is_link" rel="nofollow" style="font-size:24px">Time in Mountain Time:</a>
 			<span id="MT_z12b" style="font-size:24px"></span>
 			<script src="//widget.time.is/t.js"></script>
 			<script>
 			time_is_widget.init({MT_z12b:{time_format:"12hours:minutes:secondsA"}});
 			</script>
+			</div>
 
 		</div>
 	);
