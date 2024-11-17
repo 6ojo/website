@@ -72,14 +72,14 @@ export default function Home() {
 			</div>
 
 			{/* Time Widget Section */}
-			<div className="mt-10 text-center">
+			<div className="my-16 text-center animate-fade-in font-display">
 				<a
 					href="https://time.is/MT"
 					id="time_is_link"
 					rel="nofollow"
 					style={{ fontSize: "24px", color: "white" }}
 				>
-					Time in Mountain Time:
+					my time: 
 				</a>
 				<span
 					id="MT_z12b"
