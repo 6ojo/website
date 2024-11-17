@@ -77,13 +77,13 @@ export default function Home() {
 					href="https://time.is/MT"
 					id="time_is_link"
 					rel="nofollow"
-					style={{ fontSize: "24px" }}
+					style={{ fontSize: "24px", color: "white" }}
 				>
 					Time in Mountain Time:
 				</a>
 				<span
 					id="MT_z12b"
-					style={{ fontSize: "24px" }}
+					style={{ fontSize: "24px", color: "white" }}
 				></span>
 			</div>
 		</div>
