@@ -1,15 +1,33 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import Particles from "./components/particles";
 
 const navigation = [
 	{ name: "contact", href: "/contact" },
 	{ name: "about me", href: "/abt" },
- 	{ name: "extra links", href: "/more" },
+	{ name: "extra links", href: "/more" },
 ];
 
-
 export default function Home() {
+	useEffect(() => {
+		const script = document.createElement("script");
+		script.src = "//widget.time.is/t.js";
+		script.async = true;
+		document.body.appendChild(script);
+
+		script.onload = () => {
+			if (window.time_is_widget) {
+				window.time_is_widget.init({
+					MT_z12b: { time_format: "12hours:minutes:secondsA" },
+				});
+			}
+		};
+
+		return () => {
+			document.body.removeChild(script);
+		};
+	}, []);
+
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<nav className="my-16 animate-fade-in">
@@ -51,15 +69,22 @@ export default function Home() {
 					</Link>
 				</h2>
 			</div>
-			<div className="time widget">
-			<a href="https://time.is/MT" id="time_is_link" rel="nofollow" style="font-size:24px">Time in Mountain Time:</a>
-			<span id="MT_z12b" style="font-size:24px"></span>
-			<script src="//widget.time.is/t.js"></script>
-			<script>
-			time_is_widget.init({MT_z12b:{time_format:"12hours:minutes:secondsA"}});
-			</script>
-			</div>
 
+			{/* Time Widget Section */}
+			<div className="mt-10 text-center">
+				<a
+					href="https://time.is/MT"
+					id="time_is_link"
+					rel="nofollow"
+					style={{ fontSize: "24px" }}
+				>
+					Time in Mountain Time:
+				</a>
+				<span
+					id="MT_z12b"
+					style={{ fontSize: "24px" }}
+				></span>
+			</div>
 		</div>
 	);
 }
