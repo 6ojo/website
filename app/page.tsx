@@ -49,7 +49,6 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={500}
 			/>
-			<p className="text-red-500">what the fuuuuck</p>
 			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 				gojo.one
 			</h1>
