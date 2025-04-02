@@ -74,7 +74,7 @@ export default function Home() {
 			{/* Time Widget Section */}
 			<div className="my-16 text-center animate-fade-in font-display text-zinc-500">
 				<a
-					href="https://time.is/MT"
+					href="https://time.is/Flagstaff"
 					id="time_is_link"
 					rel="nofollow"
 					style={{ fontSize: "24px" }}
