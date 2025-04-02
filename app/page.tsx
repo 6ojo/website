@@ -19,7 +19,7 @@ export default function Home() {
 		script.onload = () => {
 			if (window.time_is_widget) {
 				window.time_is_widget.init({
-					MT_z12b: { time_format: "hours:minutes" },
+					Flagstaff_z16c: { time_format: "hours:minutes" },
 				});
 			}
 		};
