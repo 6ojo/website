@@ -71,7 +71,6 @@ export default function Home() {
 				</h2>
 			</div>
 
-			{/* Time Widget Section */}
 			<div className="my-16 text-center animate-fade-in font-display text-zinc-500">
 				<a
 					href="https://time.is/Flagstaff"
