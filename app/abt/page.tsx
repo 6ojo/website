@@ -25,12 +25,12 @@ export default function Home() {
             <Link target="_self" href="https://www.gojo.one" className="underline duration-500 hover:text-zinc-300">
               go home
             </Link>
-            <span className="text-zinc600"></span>
+            <span className="text-zinc600 mx-4"></span>
             <a
               href="mailto:me@gojo.one"
               className="underline duration-500 hover:text-zinc-300"
               >
-                email me!
+              email me!
               </a>
           </h3>
         </div>
