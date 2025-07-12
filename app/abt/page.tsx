@@ -17,7 +17,7 @@ export default function Home() {
         <div className="content my-16 text-center font-display ">
           <h1 className="title "> im gojo and i want to be your friend</h1>
 
-          <h2 className="subtitle text-sm my-16 ">
+          <h2 className="text-sm text-zinc-500 ">
             thanks for visiting my site. <br /> i like cats, records, and being silly on the interweb. <br /> (the name isnt from jjk)
           </h2>
 
@@ -25,6 +25,13 @@ export default function Home() {
             <Link target="_self" href="https://www.gojo.one" className="underline duration-500 hover:text-zinc-300">
               go home
             </Link>
+            <span className="text-zinc600"></span>
+            <a
+              href="mailto:me@gojo.one"
+              className="underline duration-500 hover:text-zinc-300"
+              >
+                email me!
+              </a>
           </h3>
         </div>
       </div>
