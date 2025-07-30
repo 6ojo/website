@@ -71,7 +71,7 @@ export default function Home() {
 						<br />
 						analytics anonymously collected by
 						<Link target="_self" href="https://cloud.umami.is/share/tp6ZDMQMXjEI9g09/gojo.one" className="underline duration-500 hover:text-zinc-300">
-            			umami
+            			 umami
             			</Link>
 				</h2>
 			</div>
