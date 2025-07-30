@@ -3,6 +3,7 @@ import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import Script from "next/script";
 
 export const metadata: Metadata = {
 	title: {
@@ -71,6 +72,12 @@ export default function RootLayout({
 				}`}
 			>
 				{children}
+				{/* umami */}
+				<Script
+					defer
+					src="https://cloud.umami.is/script.js"
+					data-website-id="605e333d-3b56-48bb-a711-4a778f8ce88b"
+					/>
 			</body>
 		</html>
 	);
