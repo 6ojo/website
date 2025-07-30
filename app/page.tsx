@@ -49,16 +49,17 @@ export default function Home() {
 				</ul>
 			</nav>
 
-			<div className="flex flex-col items-center">
-				<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-				<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-					gojo.one
-				</h1>
-				<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 font-display " />
-			</div>
+			<div className="flex flex-col items-center"> 
+				{/* contains gojo.one and little texts */}
+				<div className="flex flex-col items-center">
+					<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+					<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+						gojo.one
+					</h1>
+					<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 font-display " />
+				</div>
 
-			<div className="mb-16 text-center animate-fade-in">
-				<div className="mb-8">
+				<div className="mt-4 text-center animate-fade-in">
 					<h2 className="text-sm text-zinc-500 ">
 						hiya, im gojo :3
 						<br /> look up there for more info about me
@@ -82,7 +83,9 @@ export default function Home() {
 						</Link>
 					</h2>
 				</div>
-
+			</div>
+{			/* clock is its own div  */}
+			<div className="mb-16 text-center animate-fade-in">
 				<div className="font-display text-zinc-500">
 					<a
 						href="https://time.is/Flagstaff"
