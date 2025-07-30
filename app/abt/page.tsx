@@ -27,9 +27,8 @@ export default function Home() {
             </Link>
             <span className="text-zinc600 mx-4"></span>
             <a
-              href="mailto:me@gojo.one"
-              className="underline duration-500 hover:text-zinc-300"
-              >
+              href="mailto:me@gojo.one" className="underline duration-500 hover:text-zinc-300"
+            >
               email me!
               </a>
           </h3>
