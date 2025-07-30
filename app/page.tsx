@@ -69,7 +69,7 @@ export default function Home() {
 						open source
 					</Link>
 						<br />
-						analytics anonymously collected by
+						analytics anonymously collected by 
 						<Link target="_self" href="https://cloud.umami.is/share/tp6ZDMQMXjEI9g09/gojo.one" className="underline duration-500 hover:text-zinc-300">
             			 umami
             			</Link>
