@@ -61,6 +61,7 @@ export default function Home() {
 
 				<div className="mt-4 text-center animate-fade-in">
 					<h2 className="text-sm text-zinc-500 ">
+						<br />
 						hiya, im gojo :3
 						<br /> look up there for more info about me
 						<br /> and where i hide
@@ -73,7 +74,7 @@ export default function Home() {
 							open source
 						</Link>
 						<br />
-						analytics anonymously collected by
+						analytics anonymously collected by{" "}
 						<Link
 							target="_self"
 							href="https://cloud.umami.is/share/tp6ZDMQMXjEI9g09/gojo.one"
