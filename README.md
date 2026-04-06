@@ -3,6 +3,6 @@
     
 my website that i entirely took from https://github.com/chronark/chronark.com
 <br/> it was a vercel template so most of the coding here was done through trial and error
-<br/>i am not a good developer
+<br/>i do NOT know typescript and i am NOT going to learn!
 
 </div>
