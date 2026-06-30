@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
 				<div className="w-full max-w-2xl">
 					<header className="mb-10 text-center">
 						<h1 className="text-4xl font-bold tracking-tight text-zinc-100 font-display sm:text-5xl">
-							LiveTime — Privacy Policy
+							LiveTime - Privacy Policy
 						</h1>
 						<p className="mt-4 text-sm text-zinc-500">
 							Effective date: June 30, 2026
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
 							handles. The short version:{" "}
 							<strong>
 								LiveTime does not collect, transmit, or share any personal
-								data.
+								data. It is an entirely offline app.
 							</strong>
 						</p>
 
@@ -41,8 +41,8 @@ export default function PrivacyPolicy() {
 
 						<h2>Data stored on your device</h2>
 						<p>
-							The app saves your preferences — your selected timezone and your
-							appearance/behavior settings (theme, color, 12/24-hour, etc.) —{" "}
+							The app saves your preferences - your selected timezone and your
+							appearance/behavior settings (theme, color, 12/24-hour, etc.) -{" "}
 							<strong>locally on your device only</strong>, using Android's
 							standard on-device storage. This information never leaves your
 							device and is removed when you uninstall the app.
@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
 
 						<h2>Links to third parties</h2>
 						<p>
-							The app may open external links you tap yourself — for example, a
+							The app may open external links you tap yourself - for example, a
 							donation link, which opens in your browser. Those third-party
 							sites have their own privacy policies; this policy does not cover
 							them.
